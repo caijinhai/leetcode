@@ -1,6 +1,18 @@
 # shell词频统计
 
+<font color="#4285f4">更</font>
+<font color="#ea4335">丰</font>
+<font color="#fbbc05">富</font>
+<font color="#4285f4">的</font>
+<font color="#34a853">颜</font>
+<font color="#ea4335">色</font>
+
+<font color=#fbbc05>cat words.txt| tr ' ' '\n'| tr -s '\n' | sort | uniq -c | sort -r | awk '{print $2, $1}'</font>
+
+```shell
 cat words.txt| tr ' ' '\n'| tr -s '\n' | sort | uniq -c | sort -r | awk '{print $2, $1}'
+```
+
 
 [linux命令大全](https://man.linuxde.net/)
 
@@ -21,6 +33,7 @@ awk 'BEGIN{ commands } pattern{ commands } END{ commands }'
 ```
 
 ### 除去空行的四种方式
+```shell
 cat words.txt | tr -s '\n'
 
 cat words.txt | sed '/^$/d'
@@ -29,6 +42,7 @@ cat words.txt | awk '{if($0 != "")print}'
 cat words.txt | awk '{if(length != 0)print $0}'
 
 cat words.txt | grep -v "^$"
+```
 
 ```
 grep: https://man.linuxde.net/grep
