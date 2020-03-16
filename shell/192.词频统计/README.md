@@ -1,14 +1,5 @@
 # shell词频统计
 
-<font color="#4285f4">更</font>
-<font color="#ea4335">丰</font>
-<font color="#fbbc05">富</font>
-<font color="#4285f4">的</font>
-<font color="#34a853">颜</font>
-<font color="#ea4335">色</font>
-
-<font color=#fbbc05>cat words.txt| tr ' ' '\n'| tr -s '\n' | sort | uniq -c | sort -r | awk '{print $2, $1}'</font>
-
 ```shell
 cat words.txt| tr ' ' '\n'| tr -s '\n' | sort | uniq -c | sort -r | awk '{print $2, $1}'
 ```
