@@ -10,5 +10,5 @@
 
 
 ### shell
-[192.词频统计](./shell/192.词频统计/README.md)
-[193.有效电话号码](./shell/193.有效电话号码/README.md)
+* [192.词频统计](./shell/192.词频统计/README.md)
+* [193.有效电话号码](./shell/193.有效电话号码/README.md)
