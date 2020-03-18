@@ -1,4 +1,4 @@
-# shell词频统计
+## shell词频统计
 
 ```shell
 cat words.txt| tr ' ' '\n'| tr -s '\n' | sort | uniq -c | sort -r | awk '{print $2, $1}'
