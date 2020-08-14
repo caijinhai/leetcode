@@ -35,3 +35,4 @@
 * [5.最长回文子串](./string/5.最长回文子串/README.md)
 * [14.最长公共前缀](./string/14.最长公共前缀/README.md)
 * [151.翻转字符串里的单词](./string/151.翻转字符串里的单词/README.md)
+* [字符串匹配孙法：KMP](./string/字符串匹配孙法：KMP/README.md)
