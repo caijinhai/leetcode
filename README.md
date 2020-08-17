@@ -36,3 +36,13 @@
 * [14.最长公共前缀](./string/14.最长公共前缀/README.md)
 * [151.翻转字符串里的单词](./string/151.翻转字符串里的单词/README.md)
 * [字符串匹配孙法：KMP](./string/字符串匹配孙法：KMP/README.md)
+* [28.实现strStr](./string/28.实现strStr/README.md)
+
+### 双指针
+* [344.反转字符串](./string/344.反转字符串/README.md)
+* [561.数组拆分I](./array/561.数组拆分I/README.md)
+* [167.两数之和-ii-输入有序数组](./array/167.两数之和-ii-输入有序数组/README.md)
+* [27.移除元素](./array/27.移除元素/README.md)
+* [485.最大连续-1-的个数](./array/485.最大连续-1-的个数/README.md)
+* [209.长度最小的子数组](./array/209.长度最小的子数组/README.md)
+
