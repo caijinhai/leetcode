@@ -24,7 +24,8 @@
 * [15.三数之和](./array/15.三数之和/README.md)
 * [56.合并区间](./array/56.合并区间/README.md)
 * [724.寻找数组的中心索引](./array/724.寻找数组的中心索引/README.md)
-
+* [118.杨辉三角](./array/118.杨辉三角/README.md)
+* [119.杨辉三角-ii](./array/119.杨辉三角-ii/README.md)
 
 ### 二维数组
 * [73.矩阵置零](./array/73.矩阵置零/README.md)
