@@ -44,13 +44,13 @@ class MyCircularQueue(object):
         """
         if self.isEmpty():
             return False
-        if self.head == self.tail:
+
+        self.head += 1
+        if self.head >= self.size:
+            self.head = 0
+        if self.head >= self.tail:
             self.head = -1
             self.tail = -1
-        else:
-            self.head += 1
-            if self.head >= self.size:
-                self.head = 0
         return True
         
 
