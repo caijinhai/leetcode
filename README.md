@@ -57,6 +57,8 @@
 
 ### 队列
 * [队列实现](./queue/队列实现/README.md)
+* [200.岛屿数量](./queue/200.岛屿数量/README.md)
 * [622.设计循环队列](./queue/622.设计循环队列/README.md)
 * [641.设计循环双端队列](./queue/641.设计循环双端队列/README.md)
+* [752.打开转盘锁](./queue/752.打开转盘锁/README.md)
 * [广度优先搜索](./queue/广度优先搜索/README.md)
