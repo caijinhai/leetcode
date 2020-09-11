@@ -22,3 +22,25 @@ class Solution(object):
         return -1
 
 
+class Template(object):
+    '''
+    广度优先搜索模版
+    先遍历完上一层再遍历下一层
+    '''
+    def __init__(self):
+        pass
+
+    def bfs(self, root, target):
+        queue = Queue()
+
+        queue.put(root)
+
+        while queue:
+            size = queue.__sizeof__
+            for i in range(size):
+                cur = queue.get()
+                if cur == target:
+                    return True
+                for neighbor in cur.neighbors:
+                    queue.put(neighbor)
+        return False
