@@ -73,3 +73,6 @@
 * [225.用队列实现栈](./queue&stack/225.用队列实现栈/README.md)
 * [232.用栈实现队列](./queue&stack/232.用栈实现队列/README.md)
 * [394.字符串解码](./queue&stack/394.字符串解码/README.md)
+* [542.01-矩阵](./queue&stack/542.01-矩阵/README.md)
+* [733.图像渲染](./queue&stack/733.图像渲染/README.md)
+* [841.钥匙和房间](./queue&stack/841.钥匙和房间/README.md)
